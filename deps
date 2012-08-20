@@ -61,3 +61,20 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=origin/2.0
+
+[doctrine-mongodb]
+    git=http://github.com/doctrine/mongodb.git
+    version=1.0.0-BETA1
+
+[doctrine-mongodb-odm]
+    git=http://github.com/doctrine/mongodb-odm.git
+    version=1.0.0-BETA5
+
+[DoctrineMongoDBBundle]
+    git=http://github.com/doctrine/DoctrineMongoDBBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineMongoDBBundle
+    version=v2.2.0
+
+[doctrine-common]
+    git=http://github.com/doctrine/common.git
+    version=2.2.0
