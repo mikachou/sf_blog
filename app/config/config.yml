@@ -65,7 +65,7 @@ doctrine_mongodb:
             server: mongodb://localhost:27017
             options:
                 connect: true
-    default_database: test_database
+    default_database: sf_blog
     document_managers:
         default:
             auto_mapping: true
