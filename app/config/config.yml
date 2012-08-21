@@ -4,7 +4,7 @@ imports:
 
 framework:
     #esi:             ~
-    #translator:      { fallback: %locale% }
+    translator:     ~
     secret:          %secret%
     charset:         UTF-8
     router:          { resource: "%kernel.root_dir%/config/routing.yml" }
@@ -69,3 +69,8 @@ doctrine_mongodb:
     document_managers:
         default:
             auto_mapping: true
+            
+fos_user:
+    db_driver: mongodb
+    firewall_name: main
+    user_class: Schuh\BlogBundle\Document\User
