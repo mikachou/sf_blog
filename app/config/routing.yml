@@ -1,7 +1,6 @@
 SchuhBlogBundle:
-    resource: "@SchuhBlogBundle/Controller/"
+    resource: "@SchuhBlogBundle/Controller/DefaultController.php"
     type:     annotation
-    prefix:   /
 
 # app/config/routing.yml
 fos_user_security:
