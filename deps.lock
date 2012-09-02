@@ -15,7 +15,6 @@ SensioGeneratorBundle c0118ce370f8da20e43051f2dd1ae331a202ab9c
 AsseticBundle 6f15728c1aefa5246caa83730e3dbf70b0d46052
 doctrine-mongodb 1.0.0-BETA1
 doctrine-mongodb-odm 1.0.0-BETA5
-DoctrineMongoDBBundle 
 FOSUserBundle 1.2.0
 AdmingeneratorGeneratorBundle b54359f209a3db6303a23b16b1112a6c7989a106
 KnpMenuBundle 4389efdd5c30d974544afbfe5ada3a4ce30d7aa1
