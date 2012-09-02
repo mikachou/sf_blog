@@ -80,6 +80,43 @@
     version=2.2.0
 
 [FOSUserBundle]  
-	git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
+    git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
     target=bundles/FOS/UserBundle
     version=1.2.0
+
+[AdmingeneratorGeneratorBundle]
+    git=git://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle.git
+    target=/bundles/Admingenerator/GeneratorBundle
+    version=origin/2.0
+
+[KnpMenuBundle]
+    git=https://github.com/KnpLabs/KnpMenuBundle.git
+    target=/bundles/Knp/Bundle/MenuBundle
+
+[KnpMenu]
+    git=https://github.com/KnpLabs/KnpMenu.git
+    target=/KnpMenu
+[TwigGenerator]
+    git=git://github.com/cedriclombardot/TwigGenerator.git
+    target=/twig-generator
+
+[PagerFanta]
+    git=git://github.com/whiteoctober/Pagerfanta.git
+    target=/pagerfanta
+
+[WhiteOctoberPagerfantaBundle]
+    git=git://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git
+    target=/bundles/WhiteOctober/PagerfantaBundle
+
+[doctrine-fixtures]
+    git=http://github.com/doctrine/data-fixtures.git
+
+[DoctrineFixturesBundle]
+    git=http://github.com/doctrine/DoctrineFixturesBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
+    version=origin/2.0
+
+
+[DoctrineMongoDBBundle]
+    git=git://github.com/symfony/DoctrineMongoDBBundle.git
+    target=/bundles/Doctrine/Bundle/MongoDBBundle

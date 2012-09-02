@@ -5,6 +5,10 @@ use Doctrine\Common\Annotations\AnnotationRegistry;
 
 $loader = new UniversalClassLoader();
 $loader->registerNamespaces(array(
+    'Doctrine\\Common\\DataFixtures' => __DIR__.'/../vendor/doctrine-fixtures/lib',
+    'WhiteOctober\\PagerfantaBundle' => __DIR__.'/../vendor/bundles',
+    'Pagerfanta' => __DIR__.'/../vendor/pagerfanta/src',
+    'TwigGenerator' => __DIR__.'/../vendor/twig-generator/src',
     'Symfony'          => array(__DIR__.'/../vendor/symfony/src', __DIR__.'/../vendor/bundles'),
     'Sensio'           => __DIR__.'/../vendor/bundles',
     'JMS'              => __DIR__.'/../vendor/bundles',
@@ -14,10 +18,15 @@ $loader->registerNamespaces(array(
     'Monolog'          => __DIR__.'/../vendor/monolog/src',
     'Assetic'          => __DIR__.'/../vendor/assetic/src',
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
+    'Doctrine\\Common\\DataFixtures' => __DIR__.'/../vendor/doctrine-fixtures/lib',
     'Doctrine\\ODM\\MongoDB'    => __DIR__.'/../vendor/doctrine-mongodb-odm/lib',
     'Doctrine\\MongoDB'         => __DIR__.'/../vendor/doctrine-mongodb/lib',
     'Doctrine'                  => __DIR__.'/../vendor/doctrine/lib',
     'FOS' => __DIR__.'/../vendor/bundles',
+    'Admingenerator'    => array(__DIR__.'/../src', __DIR__.'/../vendor/bundles'),
+    'Knp'       => __DIR__.'/../vendor/bundles',
+    'Knp\\Menu'  => __DIR__.'/../vendor/KnpMenu/src',
+    //'Doctrine\\Bundle\\FixturesBundle' => __DIR__.'/../vendor/bundles'
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
